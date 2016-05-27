@@ -1,4 +1,6 @@
-# Clapperboard
+************
+Clapperboard
+************
 
 Want record yourself playing guitar with a camcorder while using the audio from
 your audio interface? No problem, we've got you covered!
@@ -13,7 +15,7 @@ line script to sync your video and audio tracks.
 Installation
 ============
 
-Clone this repo and run `pip install clapperboard`.
+Clone this repo and run ``pip install clapperboard``.
 
 Usage
 =====
