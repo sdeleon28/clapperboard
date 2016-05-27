@@ -4,6 +4,8 @@ from setuptools import setup, find_packages
 from codecs import open
 from os import path
 
+VERSION = '0.2'
+
 here = path.abspath(path.dirname(__file__))
 
 # Get the long description from the README file
@@ -16,14 +18,14 @@ setup(
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='0.1',
+    version=VERSION,
 
     description='A command-line clapperboard',
     long_description=long_description,
 
     # The project's main homepage.
     url='https://github.com/sdeleon28/clapperboard',
-    download_url='https://github.com/sdeleon28/clapperboard/tarball/0.1',
+    download_url='https://github.com/sdeleon28/clapperboard/tarball/{}'.format(VERSION),
 
     # Author details
     author='Santiago de Leon',
@@ -76,6 +78,7 @@ setup(
     entry_points={
         'console_scripts': [
             'clapsync=clapperboard.sync:main',
+            'clapcrop=clapperboard.crop:main',
         ],
     },
 )
