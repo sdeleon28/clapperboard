@@ -22,7 +22,8 @@ setup(
     long_description=long_description,
 
     # The project's main homepage.
-    url='https://bitbucket.org/santiagodeleon/clapperboard',
+    url='https://github.com/sdeleon28/clapperboard',
+    download_url='https://github.com/sdeleon28/clapperboard/tarball/0.1',
 
     # Author details
     author='Santiago de Leon',
